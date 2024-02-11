@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formação HTML</title>
+    <title>Entendendo a Comunicação Client X Server</title>
 </head>
 <body>
-    <h1>Breve Historia da Programação </h1>
-        <h3>Primeiros Computadores</h3>
-            <p>Os primeiros Computadores que existiram, eram basicamente grandes máquinas de cálcular e que funcionavam a partir de Valvulas e que ocupavem basicamente uma sala toda. Com a melhoria tecnológica as <strong>valvulas</strong> foram em bvreve substituídas pelos transistos, isto diminuíu muito o espaço necessário dos computadores (tamanho de uma mesa mais ou menos). Depois com vinda dos <strong>capacitores</strong> e <strong>resistores</strong> esse tamanho diminuíu ainda mais, para o tamanho que vemos hoje.  
-            </p>
-        
-        <h3>Surgimento da Internet</h3>
-            <p>A internet surgiu durante a guerra fria, com o objetivo de revolucionar a comunicação, se deu inicio dentro da <strong>DARPA</strong> (<em>Defense Advanced Research Project Agency</em>), neste inicio a comunicação era feita apenas por universidades e bases militares, utilizando comunicação por fio, essa rede foi chamada de <strong>ARPANET</strong> E apartir dai ela foi evoluindo até chegar o que é hoje.
-            </p>
-
-        <h2>Entendendo a Comunicação Client X Server</h2>
+    <h1>Entendendo a Comunicação Client X Server</h1>
             <h3>O que são Clients?</h3>
+
                 <p>No linguajar de Web, <strong>Client</strong> é a parte que recebe a requisição feita, ou seja, normalmente o Client é o usuário que requisita dados ao Server.
                 </p>
+
                 <p>Quando o <strong>Server</strong> devolve esses dados o nosso <strong>Navegador</strong> irá interpreta-los e nos entregar seu resultado. seja essses dados uma página Web, um arquivo de download Etc.. 
                 </p>
 
@@ -31,6 +24,8 @@
 
             <h3>Dipositiveis móveis</h3>
                 <p>São de acesso ao publicp geral, onde a grande maioria das pessoas possuem, por isso é algo que deve ser ser considerado em nossas criações web, e suas responsabilidades.</p>
+            
+                <hr>
 
         <h2>Servidores</h2>
             <p><Strong>Servidores</Strong> são computadores que tem como intuito armazenar e/ou precessar dados, sejam esses para acesso interno de um funcionário da empresa ou acesso externo de clientes, uma lista de produtos por exemplo.</p>
@@ -49,12 +44,23 @@
                 </ol>
                 
                 <h4>Tipos de Servidores</h4>
-                    <ol>
+                    <ul>
                         <li>Arquivo: Armazena, gerencia e compartilha arquivos com outros dispositivos na rede. Oferece acesso a arquivos e pastas de forma centralaizada.</li>
-                    </ol>
-            
 
+                        <li>Segurança(Firewall): Atua como uma forma de proteção do servidor, detectando e bloqueando possíveis arquivos maliciosos.</li>
 
+                        <li>Streaming: Atua recuperando informações de videos para o lado do <strong>Client</strong>, o próprio <em>Youtube</em> é um exemplo.</li> 
 
-    </body>
-    </html>
+                        <li>E-mail: Gerencia o envio, recebimento e armazenamento de e-mail. Fornece serviços como <strong>SMTP</strong>(envio). <strong>IMAP</strong> ou <strong>POP3</strong>(Recebimento).</li>
+                        <li>Web: Fornece páginas web a clientes que acessam a internet. reponde a solicitações <strong>HTTP</strong>, precessam páginas web dinâmicas e entrega conteúdo estático.
+                        </li>
+
+                        <li>Banco de Dados: Armazena, gerência e recupera dados de um banco de dados. pode oferecer suporte a diferentes modelos de banco de dados, como relacional, NoSQL etc...</li>
+
+                        <li>Servidor de Aplicação: Executa aplicativos e fornece serviços de <strong>Middleware</strong>(software ou serviço de nuvem que fornecem funcionalidades e recusrsos a aplicações e ajudam desenvolvedores e operadores a criar e implantar aplicações com mais eficiência).</li>
+                    </ul>
+                    
+                    <blockquote>Nota: Vale lembrar que além desses existem vários outros servidores, e também é importante salientar que um servidor pode atuar com mais que uma função, porém não é recomendado por questões de processamento.</blockquote>
+
+</body>
+</html>
