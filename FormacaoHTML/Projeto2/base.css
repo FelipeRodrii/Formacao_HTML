@@ -24,15 +24,18 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
+    text-align: center;
     background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
 .content {
+    font-size: 25px;
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
 .footer {
+    text-align: center;
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }
